@@ -9,6 +9,7 @@
 
 * [Общие положения](api_docs/general.md)
 * [Авторизация](api_docs/auth.md)
+* [WebHooks](api_docs/web_hooks.md)
 ### Работа с сущностями
   * [Appraisal (Анкетирование)](api_docs/appraisal.md)
   * [AppraisalParticipant (Участник анкетирования)](api_docs/appraisal_participant.md)
