@@ -28,7 +28,7 @@
 |----|--------|------------|------------|
 |externalId|string| Unique |Внешний идентификатор (опциональный)|
 |participantUserExternalId|string|Not Null |Идентификатор пользователя из внешней системы, участника-оценивающего|
-|dateCompleted| datetime (подробнее о формате [здесь](general.md))| Not Null |Дата выполнения|
+|dateCompleted| datetime (подробнее о формате [здесь](general.md))| - |Дата выполнения|
 |isMain| boolean  |Not Null | Является ли участник основным оценивающим|
 |textFeedback| string | - | Текстовый отзыв. Строка, закодированная в Base64|
 |textHint| string | - | Тестовая подсказка от основного оценивающего. Строка, закодированная в Base64|
