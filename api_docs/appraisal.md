@@ -23,7 +23,8 @@
     "mainСriterionX": 1,
     "mainСriterionY": 2,
     "resultRecommendations": "0KLRg9GCINGA0LDQt9C90YvQtSDQv9C+0LvQtdC30L3Ri9C1INGA0LXQutC+0LzQtdC90LTQsNGG0LjQuCA=",
-    "additionalInfo": "0KLRg9GCINGA0LDQt9C90YvQtSDQv9C+0LvQtdC30L3Ri9C1INGA0LXQutC+0LzQtdC90LTQsNGG0LjQuCA="
+    "additionalInfo": "0KLRg9GCINGA0LDQt9C90YvQtSDQv9C+0LvQtdC30L3Ri9C1INGA0LXQutC+0LzQtdC90LTQsNGG0LjQuCA=",
+    "adInfoRequestInProgress": false
 }
 ```
 
@@ -47,7 +48,7 @@
 |mainСriterionY| Значения из [перечисления](#appraisal_mainСriterionY)| - | Значение критерия оценики Y |
 |resultRecommendations| string | - | Результаты и рекомендации. Строка, закодированная в Base64. *Максимальная длина - 4000 символов*|
 |additionalInfo| string | - | Доп. информация из внешних систем (XML). Строка, закодированная в Base64|
-
+|adInfoRequestInProgress| bool | - | Признак активности процесса обновления доп. данных|
 
 
 
@@ -188,7 +189,9 @@
     "mainСriterionX": 1,
     "mainСriterionY": 2,
     "additionalInfo": "0KLRg9GCINGA0LDQt9C90YvQtSDQv9C+0LvQtdC30L3Ri9C1INGA0LXQutC+0LzQtdC90LTQsNGG0LjQuCA=",
-    "resultRecommendations": "0KLRg9GCINGA0LDQt9C90YvQtSDQv9C+0LvQtdC30L3Ri9C1INGA0LXQutC+0LzQtdC90LTQsNGG0LjQuCA="}
+    "resultRecommendations": "0KLRg9GCINGA0LDQt9C90YvQtSDQv9C+0LvQtdC30L3Ri9C1INGA0LXQutC+0LzQtdC90LTQsNGG0LjQuCA=",
+    "adInfoRequestInProgress": false
+}
 ```
 
 ### Описание полей
@@ -214,6 +217,6 @@
 |mainСriterionY| Значения из [перечисления](#appraisal_mainСriterionY)| - | Значение критерия оценики Y |
 |resultRecommendations| string | - | Результаты и рекомендации. Строка, закодированная в Base64. *Максимальная длина - 4000 символов*|
 |additionalInfo| string | - | Доп. информация из внешних систем (XML). Строка, закодированная в Base64. *Максимальная длина - 4000 символов*|
-
+|adInfoRequestInProgress| bool | - | Признак активности процесса обновления доп. данных|
 
 В случае получения всех записей возвращается массив элементов с вышеописанным форматом.
