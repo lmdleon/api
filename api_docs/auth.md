@@ -19,7 +19,7 @@
 
 Выдаётся при вводе логина/пароля пользователя
 Пример запроса:
-http://localhost:51649/api/auth/signin
+` http://localhost:51649/api/auth/signin `
 В теле запроса передаётся JSON объект
 ```json
 { 
@@ -50,7 +50,7 @@ Value : Bearer eyJhbGciOiJIUzUxMiI...
 
 Refresh token выдаётся при успешной аутентификации. Используется для получения новой пары access/refresh токенов.
 Для запроса новой пары токенов:
-http://localhost:51649/api/auth/refresh
+` http://localhost:51649/api/auth/refresh `
 
 В заголовке refresh_token передаётся значение полученного ранее refresh токена. В том случе, если токен не корректный, будет получен ответ BadRequest. Если время жизни токена истекло - Unauthorized
 
