@@ -39,8 +39,10 @@ http://localhost:51649/api/auth/signin
 В котором мы получаем access и refresh токен, а также время жизни access токена, в формате ГГГГ-ММ-ДДTЧЧ:MM:CCUTC
 
 В дальнейшем, access токен передаётся в Authotization заколовке типа Bearer Token
+```json
 Key : Authorization
 Value : Bearer eyJhbGciOiJIUzUxMiI...
+```
 
 ## Refresh token
 
