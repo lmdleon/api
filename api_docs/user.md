@@ -55,7 +55,20 @@
 ```json
 {
     "Id": "065D3C46-F3BD-4292-8D5F-002A0DA030C8",
-    ...  
+    "externalId": "externalID1104",
+    "login": "TestLogin",
+    "lastName": "TestLastName",
+    "firstName": "TestFirstName",
+    "middleName": "TestMiddleName",
+    "email": "test@croc.ru",
+    "phoneNumber": "1111",
+    "positionExternalId": "2C4F847B-CF28-4821-AAB0-7A4F8FE01980",
+    "organizationExternalId": "27BCD90F-AEF8-44AB-ABDF-BB319D986C75",
+    "managerExternalId": "FABC3F0F-5CAB-44C2-A6A9-4F246DF2491F",
+    "isActive": true,
+    "HireDate": "2020-18-02T00:00:00+03:00",
+    "type": "F651709A-3951-4A7B-BE31-DFE6B1F598A7",
+    "postfix": "ДРПО"     
 }
 ```
 ### Описание полей
