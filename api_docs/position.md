@@ -2,7 +2,7 @@
 
 ## Создание
 
-`POST /api/organization`
+`POST /api/position`
 
 Пример сообщения в Body запроса
 
@@ -79,11 +79,11 @@
 
 #### Получение всех записей
 
-`GET /api/organization/all`
+`GET /api/position/all`
 
 #### Получение всех записей, удовлетворяющих фильтру
 
-`GET /api/organization`
+`GET /api/position`
 
 В Body запроса передаются значения фильтра в виде
 
