@@ -11,6 +11,7 @@
   * [Appraisal (Анкетирование)](api_docs/appraisal.md)
   * [AppraisalParticipant (Участник анкетирования)](api_docs/appraisal_participant.md)
   * [ParticipantAnswer (Ответ по анкетированию)](api_docs/participant_answer.md)
+  * [User (Пользователь)](api_docs/user.md)
 
 
 
