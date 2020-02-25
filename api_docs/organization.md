@@ -21,7 +21,7 @@
 |----|--------|------------|------------|
 |externalId|string| Unique |Внешний идентификатор (опциональный)|
 |name|string| - |Название организации|
-|shortName|string| - |Название организации|
+|shortName|string| - |Аббревиатура|
 |parentOrganizationExternalId|string| - |Идентификатор родительской огранизации из таблицы организаций|
 |isActive|bool| - |Активен|
 
