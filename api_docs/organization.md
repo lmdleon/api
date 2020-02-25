@@ -9,10 +9,10 @@
 ```json
 {
     "externalId": "externalID1104",
-    "name": "externalID1104",
-    "shortName": "externalID1104",
+    "name": "testName",
+    "shortName": "TN",
     "parentOrganizationExternalId": "EA18ED3A-D804-4F28-BE74-85125511D6E0",
-    "isActive": "externalID1104" 
+    "isActive": true 
 }
 ```
 
@@ -46,10 +46,10 @@
 {
     "Id": "065D3C46-F3BD-4292-8D5F-002A0DA030C8",
     "externalId": "externalID1104",
-    "name": "externalID1104",
-    "shortName": "externalID1104",
+    "name": "testName",
+    "shortName": "TN",
     "parentOrganizationExternalId": "EA18ED3A-D804-4F28-BE74-85125511D6E0",
-    "isActive": "externalID1104" 
+    "isActive": true  
 }
 ```
 
@@ -97,10 +97,10 @@
 {
     "Id": "065D3C46-F3BD-4292-8D5F-002A0DA030C8",
     "externalId": "externalID1104",
-    "name": "externalID1104",
-    "shortName": "externalID1104",
+    "name": "testName",
+    "shortName": "TN",
     "parentOrganizationExternalId": "EA18ED3A-D804-4F28-BE74-85125511D6E0",
-    "isActive": "externalID1104" 
+    "isActive": true  
 }
 ```
 
