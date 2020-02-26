@@ -13,7 +13,7 @@
   * [ParticipantAnswer (Ответ по анкетированию)](api_docs/participant_answer.md)
   * [User (Пользователь)](api_docs/user.md)
   * [Organization (Организация)](api_docs/organization.md)
-  * [Pozition (Позиция)](api_docs/position.md)
+  * [Position (Позиция)](api_docs/position.md)
   
   
   
