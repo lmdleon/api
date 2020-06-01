@@ -16,6 +16,7 @@
     "positionExternalId": "2C4F847B-CF28-4821-AAB0-7A4F8FE01980",
     "organizationExternalId": "27BCD90F-AEF8-44AB-ABDF-BB319D986C75",
     "managerExternalId": "FABC3F0F-5CAB-44C2-A6A9-4F246DF2491F",
+    "teamLeadExternalId": "4EDCC4D0-3461-4C23-871C-0E7C4C20A96C",
     "isActive": true,
     "HireDate": "2020-18-02T00:00:00+03:00",
     "type": "F651709A-3951-4A7B-BE31-DFE6B1F598A7",
@@ -36,6 +37,7 @@
 |positionExternalId| string | - | Идентификатор позиции |
 |organizationExternalId| string | - | Идентификатор организации |
 |managerExternalId| string | - | Идентификатор руководителя. Хранится в таблице пользователей |
+|teamLeadExternalId| string | - | Идентификатор тимлида. Хранится в таблице пользователей |
 |isActive| string | - | Активен |
 |HireDate| datetime (подробнее о формате [здесь](general.md)) | - | Дата приёма на работу |
 |type| string | - | Идентификатор типа сотрудника. *Справочная сущность, в API отсутствует* |
@@ -71,6 +73,7 @@
     "positionExternalId": "2C4F847B-CF28-4821-AAB0-7A4F8FE01980",
     "organizationExternalId": "27BCD90F-AEF8-44AB-ABDF-BB319D986C75",
     "managerExternalId": "FABC3F0F-5CAB-44C2-A6A9-4F246DF2491F",
+    "teamLeadExternalId": "4EDCC4D0-3461-4C23-871C-0E7C4C20A96C",
     "isActive": true,
     "HireDate": "2020-18-02T00:00:00+03:00",
     "type": "F651709A-3951-4A7B-BE31-DFE6B1F598A7",
@@ -163,9 +166,10 @@
     "middleName": "TestMiddleName",
     "email": "test@croc.ru",
     "phoneNumber": "1111",
-    "positionExternalId": "2C4F847B-CF28-4821-AAB0-7A4F8FE01980",
-    "organizationExternalId": "27BCD90F-AEF8-44AB-ABDF-BB319D986C75",
-    "managerExternalId": "FABC3F0F-5CAB-44C2-A6A9-4F246DF2491F",
+    "positionId": "2C4F847B-CF28-4821-AAB0-7A4F8FE01980",
+    "organizationId": "27BCD90F-AEF8-44AB-ABDF-BB319D986C75",
+    "managerId": "FABC3F0F-5CAB-44C2-A6A9-4F246DF2491F",
+    "teamLeadId": "4EDCC4D0-3461-4C23-871C-0E7C4C20A96C",
     "isActive": "true",
     "HireDate": "2020-18-02T00:00:00+03:00",
     "type": "F651709A-3951-4A7B-BE31-DFE6B1F598A7",
@@ -184,9 +188,10 @@
 |firstName| string | - | Имя |
 |middleName| string | - | Отчество |
 |phoneNumber| string | - | Номер телефона |
-|positionExternalId| string | - | Идентификатор позиции |
-|organizationExternalId| string | - | Идентификатор организации |
-|managerExternalId| string | - | Идентификатор руководителя. Хранится в таблице пользователей |
+|positionId| string | - | Идентификатор позиции |
+|organizationId| string | - | Идентификатор организации |
+|managerId| string | - | Идентификатор руководителя. Хранится в таблице пользователей |
+|teamLeadId| string | - | Идентификатор тимлида. Хранится в таблице пользователей |
 |isActive| string | - | Активен |
 |HireDate| datetime (подробнее о формате [здесь](general.md)) | - | Дата приёма на работу |
 |type| string | - | Идентификатор типа сотрудника. *Справочная сущность, в API отсутствует* |
