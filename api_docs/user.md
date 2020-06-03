@@ -18,7 +18,7 @@
     "managerExternalId": "FABC3F0F-5CAB-44C2-A6A9-4F246DF2491F",
     "teamLeadExternalId": "4EDCC4D0-3461-4C23-871C-0E7C4C20A96C",
     "isActive": true,
-    "HireDate": "2020-18-02T00:00:00+03:00",
+    "HireDate": "2014-12-22 00:00:00.0000000",
     "type": "F651709A-3951-4A7B-BE31-DFE6B1F598A7",
     "postfix": "ДРПО"    
 }
@@ -75,7 +75,7 @@
     "managerExternalId": "FABC3F0F-5CAB-44C2-A6A9-4F246DF2491F",
     "teamLeadExternalId": "4EDCC4D0-3461-4C23-871C-0E7C4C20A96C",
     "isActive": true,
-    "HireDate": "2020-18-02T00:00:00+03:00",
+    "HireDate": "2014-12-22 00:00:00.0000000",
     "type": "F651709A-3951-4A7B-BE31-DFE6B1F598A7",
     "postfix": "ДРПО"     
 }
@@ -171,7 +171,7 @@
     "managerId": "FABC3F0F-5CAB-44C2-A6A9-4F246DF2491F",
     "teamLeadId": "4EDCC4D0-3461-4C23-871C-0E7C4C20A96C",
     "isActive": "true",
-    "HireDate": "2020-18-02T00:00:00+03:00",
+    "HireDate": "2014-12-22 00:00:00.0000000",
     "type": "F651709A-3951-4A7B-BE31-DFE6B1F598A7",
     "postfix": "ДРПО"    
 }
