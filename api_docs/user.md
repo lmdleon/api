@@ -19,6 +19,7 @@
     "teamLeadExternalId": "4EDCC4D0-3461-4C23-871C-0E7C4C20A96C",
     "isActive": true,
     "HireDate": "2014-12-22 00:00:00.0000000",
+    "FiredDate": "2014-12-22 00:00:00.0000000",
     "type": "F651709A-3951-4A7B-BE31-DFE6B1F598A7",
     "postfix": "ДРПО"    
 }
@@ -40,6 +41,7 @@
 |teamLeadExternalId| string | - | Идентификатор тимлида. Хранится в таблице пользователей |
 |isActive| string | - | Активен |
 |HireDate| datetime (подробнее о формате [здесь](general.md)) | - | Дата приёма на работу |
+|FiredDate| datetime (подробнее о формате [здесь](general.md)) | - | Дата увольнения |
 |type| string | - | Идентификатор типа сотрудника. *Справочная сущность, в API отсутствует* |
 |postfix| string | - | Постфикс |
 
@@ -76,6 +78,7 @@
     "teamLeadExternalId": "4EDCC4D0-3461-4C23-871C-0E7C4C20A96C",
     "isActive": true,
     "HireDate": "2014-12-22 00:00:00.0000000",
+    "FiredDate": "2014-12-23 00:00:00.0000000",
     "type": "F651709A-3951-4A7B-BE31-DFE6B1F598A7",
     "postfix": "ДРПО"     
 }
@@ -172,6 +175,7 @@
     "teamLeadId": "4EDCC4D0-3461-4C23-871C-0E7C4C20A96C",
     "isActive": "true",
     "HireDate": "2014-12-22 00:00:00.0000000",
+    "FiredDate": "2014-12-23 00:00:00.0000000",
     "type": "F651709A-3951-4A7B-BE31-DFE6B1F598A7",
     "postfix": "ДРПО"    
 }
@@ -194,5 +198,6 @@
 |teamLeadId| string | - | Идентификатор тимлида. Хранится в таблице пользователей |
 |isActive| string | - | Активен |
 |HireDate| datetime (подробнее о формате [здесь](general.md)) | - | Дата приёма на работу |
+|FiredDate| datetime (подробнее о формате [здесь](general.md)) | - | Дата увольнения |
 |type| string | - | Идентификатор типа сотрудника. *Справочная сущность, в API отсутствует* |
 |postfix| string | - | Постфикс |
